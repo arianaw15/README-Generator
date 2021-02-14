@@ -57,26 +57,26 @@ inquirer
 
 const generateReadMe = (response) =>
 `# ${response.name}
-
-# Description
+---
+## Description
     ${response.description}
 
-# License
+## License
     [Full License Here](https://opensource.org/licenses/${response.license}).
 
-# Instructions
+## Instructions
     ${response.instructions}
 
-# How to Use
+## How to Use
     ${response.use}
 
-# Contributions
+## Contributions
     ${response.futureUse}
 
-# Testing
+## Testing
     ${response.testing}
 
-# Questions
+## Questions
     Contact the following with any additional questions:
     - Git Hub Profile: https://github.com/${response.username}
     - Email: ${response.email}`;
