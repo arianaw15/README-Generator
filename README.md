@@ -1,12 +1,13 @@
 # Professional ReadMe Generator
-    # Description
+
+# Description
     This project allows users to generate a professional readme using the command line to respond to prompts created using the inquirer package.
 
 # License
-    This project is licensed under [ISC](https://choosealicense.com/licenses/ISC/).
+    This project is licensed under [MIT](https://choosealicense.com/licenses/MIT/).
 
 # Instructions
-    Install the inquirer package to the file using the command "npm install inquirer". 
+    Install the inquirer package to the file using the command "npm install inquirer".
 
 # How to Use
     To use this project, run the command "node.js" and input the answers to the required prompts.

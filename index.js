@@ -56,7 +56,8 @@ inquirer
 
     const generateReadMe = (response) =>
 `# ${response.name}
-    # Description
+
+# Description
     ${response.description}
 
 # License
