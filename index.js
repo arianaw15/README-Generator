@@ -58,6 +58,10 @@ inquirer
 `# ${response.name}
     # Description
     ${response.description}
+
+# License
+    This project is licensed under [${response.license}](https://choosealicense.com/licenses/${response.license}/).
+
 # Instructions
     ${response.instructions}
 
@@ -73,10 +77,7 @@ inquirer
 # Questions
     Contact the following with any additional questions:
     - Git Hub Profile: https://github.com/${response.username}
-    - Email: ${response.email}
-    
-# License
-    This project is licensed under ${response.license}.`;
+    - Email: ${response.email}`;
 
     promptUser()
     .then((response)=> writeFileAsync('README.md', generateReadMe(response)))
