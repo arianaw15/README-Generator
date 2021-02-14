@@ -54,14 +54,15 @@ inquirer
 
     ]);
 
-    const generateReadMe = (response) =>
+
+const generateReadMe = (response) =>
 `# ${response.name}
 
 # Description
     ${response.description}
 
 # License
-    This project is licensed under [${response.license}](https://choosealicense.com/licenses/${response.license}/).
+    [Full License Here](https://opensource.org/licenses/${response.license}).
 
 # Instructions
     ${response.instructions}

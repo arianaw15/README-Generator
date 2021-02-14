@@ -4,7 +4,7 @@
     This project allows users to generate a professional readme using the command line to respond to prompts created using the inquirer package.
 
 # License
-    This project is licensed under [MIT](https://choosealicense.com/licenses/MIT/).
+    [Full License Here](https://opensource.org/licenses/MIT).
 
 # Instructions
     Install the inquirer package to the file using the command "npm install inquirer".
