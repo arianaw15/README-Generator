@@ -58,16 +58,26 @@ inquirer
 const generateReadMe = (response) =>
 `# ${response.name}
 ---
+## Table of Contents
+
+* [Description](#description)
+* [License](#license)
+* [Installation](#installation)
+* [Use](#use)
+* [Contributions](#contributions)
+* [Testing](#testing)
+* [Questions](#questions)
+
 ## Description
     ${response.description}
 
 ## License
     [Full License Here](https://opensource.org/licenses/${response.license}).
 
-## Instructions
+## Installation
     ${response.instructions}
 
-## How to Use
+## Use
     ${response.use}
 
 ## Contributions
