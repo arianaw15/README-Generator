@@ -72,7 +72,7 @@ const generateReadMe = (response) =>
     ${response.description}
 
 ## License
-    [Full License Here](opensource.org/licenses/${response.license}).
+    [Full License Here](https://opensource.org/licenses/${response.license}).
 
 ## Installation
     ${response.instructions}
