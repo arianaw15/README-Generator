@@ -56,7 +56,7 @@ inquirer
 
 
 const generateReadMe = (response) =>
-`# ${response.name}
+`# ${response.name} [![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)](https://opensource.org/licenses/${response.license})
 ---
 ## Table of Contents
 
