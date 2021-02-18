@@ -69,27 +69,27 @@ const generateReadMe = (response) =>
 * [Questions](#questions)
 
 ## Description
-    ${response.description}
+${response.description}
 
 ## License
-    [Full License Here](https://opensource.org/licenses/${response.license}).
+[Full License Here](https://opensource.org/licenses/${response.license}).
 
 ## Installation
-    ${response.instructions}
+${response.instructions}
 
 ## Use
-    ${response.use}
+${response.use}
 
 ## Contributions
-    ${response.futureUse}
+${response.futureUse}
 
 ## Testing
-    ${response.testing}
+${response.testing}
 
 ## Questions
-    Contact the following with any additional questions:
-    - Git Hub Profile: https://github.com/${response.username}
-    - Email: ${response.email}`;
+Contact the following with any additional questions:
+- Git Hub Profile: https://github.com/${response.username}
+- Email: ${response.email}`;
 
     promptUser()
     .then((response)=> writeFileAsync('README.md', generateReadMe(response)))
