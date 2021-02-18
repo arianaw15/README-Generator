@@ -89,7 +89,11 @@ ${response.testing}
 ## Questions
 Contact the following with any additional questions:
 - Git Hub Profile: https://github.com/${response.username}
-- Email: ${response.email}`;
+- Email: ${response.email}
+
+## Video
+[Full Video Here](https://drive.google.com/file/d/1KgSae2nqJTayJ665mPiYf2CmQSrMlr3U/view?usp=sharing).
+![](./Assets/ezgif.com-gif-maker.gif)`;
 
     promptUser()
     .then((response)=> writeFileAsync('README.md', generateReadMe(response)))

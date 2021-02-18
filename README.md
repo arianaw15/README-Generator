@@ -14,7 +14,7 @@
 This project allows users to generate a professional readme using the command line to respond to prompts created using the inquirer package.
 
 ## License
-[Full License Here](https://opensource.org/licenses/ISC).
+[Full License Here](https://opensource.org/licenses/MIT).
 
 ## Installation
 Install the inquirer package to the file using the command "npm install inquirer". 
@@ -32,3 +32,7 @@ To test this project use the command "node.js" if any errors occur, you will be 
 Contact the following with any additional questions:
 - Git Hub Profile: https://github.com/arianaw15
 - Email: arianaw15@gmail.com
+
+## Video
+[Full Video Here](https://drive.google.com/file/d/1KgSae2nqJTayJ665mPiYf2CmQSrMlr3U/view?usp=sharing).
+![](./Assets/ezgif.com-gif-maker.gif)
